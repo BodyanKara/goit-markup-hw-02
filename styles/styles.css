@@ -1,0 +1,199 @@
+:root{
+    --primary-text-color:#757575;
+    --secondary-text-color:#212121;
+    --accent-color:#2196F3;
+}
+
+                                    /* Основа сторінки */
+body{
+    background-color: #F5F5F5;
+    color:var(--primary-text-color);
+    font-family: Roboto, sans-serif;
+}
+            /* LOGO */
+.logo {
+    color: var(--secondary-text-color);
+    font-family: Raleway, sans-serif ;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.1;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+
+.logo-half {
+    color: var(--accent-color)
+}
+            /* Header */
+.site-nav-list{
+    list-style: none;
+}
+.contact-list {
+    list-style: none;
+}
+
+.site-nav .link{
+    color: var(--secondary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+.contact .link{
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus,
+.contact .link:hover,
+.contact .link:focus{
+    color: var(--accent-color);
+}
+
+    /* main (basic)*/
+
+/* Банер */
+.hero {
+    background-color: #2F303A;
+    color: #FFFFFF;
+}
+
+.hero-title{
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+
+.hero-btn {
+    background-color: #FFFFFF;
+    color: var(--primary-text-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+}
+
+.hero-btn:hover,
+.hero-btn:focus{
+    background-color: var(--accent-color);
+    color: #FFFFFF;
+}
+
+/* Особливості */
+.special-list{
+    list-style: none;
+}
+.nothing{
+    opacity: 0;
+}
+.special-title {
+    color: var(--secondary-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+        
+}
+ 
+.special-text{
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+}
+/* Про компанію */
+.section-work{
+    color: var(--secondary-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+}
+.work-list{
+    list-style: none;
+}
+
+/* Наша команда */
+.section-team{
+    color: var(--secondary-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+}
+.team-list{
+    list-style: none;
+}
+.team .members-name,
+.team .profession{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+}
+.members-name{
+    color: var(--secondary-text-color);
+}
+    /* main (portfolio)*/
+
+
+/* Фільтр */
+.filter{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
+   
+}
+.filter-list{
+    list-style: none;
+}
+
+.filter-btn{
+    color: var(--secondary-text-color);
+    cursor: pointer;
+    
+}
+
+.filter-btn:hover,
+.hero-btn:focus{
+    background-color: var(--accent-color);
+    color: #FFFFFF;  
+}
+
+/* Зміст портфоліо */
+.content-list{
+    list-style: none;
+}
+.content-list .link{
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+    text-decoration: none;
+
+}
+.list .portfolio-part{
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color: var(--secondary-text-color); 
+}
+
+.portfolio-part{
+    color: var(--secondary-text-color);
+}
+
