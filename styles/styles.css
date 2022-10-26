@@ -78,7 +78,7 @@ body{
 
 .hero-btn {
     background: var(--accent-color);
-    color: var(--primary-text-color);
+    color: #fff;
     font-family: Roboto;
     font-weight: 700;
     font-size: 16px;
@@ -89,7 +89,7 @@ body{
 
 .hero-btn:hover,
 .hero-btn:focus{
-    background-color: var(--accent-color);
+    background-color: #188CE8;
     color: #FFFFFF;
 }
 
@@ -151,7 +151,7 @@ body{
     color: var(--secondary-text-color);
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.2px;
+    line-height: 1.2;
     letter-spacing: 0.03em;
 }
     /* main (portfolio)*/
@@ -171,6 +171,11 @@ body{
     color: var(--secondary-text-color);
     cursor: pointer;
     font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
     
 }
 
@@ -224,7 +229,7 @@ footer{
 .logo-second-f{
     color: #FFFFFF;
 }
-.adsress-contact{
+.address-contact{
     font-style: normal;
 }
 .location{
